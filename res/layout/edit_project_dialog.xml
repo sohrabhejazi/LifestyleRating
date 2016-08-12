@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+<TextView
+android:text="Current:"
+android:id="@+id/tv_name_project_dialog"
+style="@style/DialogStyle" />
+<EditText
+android:id="@+id/et_name_project_dialog"
+    android:inputType="number"
+style="@style/DialogStyle" />
+<TextView
+android:text="Target:"
+android:id="@+id/tv_desc_project_dialog"
+style="@style/DialogStyle" />
+<EditText
+android:id="@+id/et_desc_project_dialog"
+    android:inputType="number"
+style="@style/DialogStyle" />
+</LinearLayout>

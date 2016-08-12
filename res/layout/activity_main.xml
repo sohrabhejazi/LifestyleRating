@@ -1,0 +1,19 @@
+<com.example.lifestylerating.ObservableScrollView
+android:id="@+id/scrollV"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    >
+<RelativeLayout android:id="@+id/RltLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white"
+     android:longClickable="true"
+     android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+    
+    
+</RelativeLayout>
+
+</com.example.lifestylerating.ObservableScrollView>
